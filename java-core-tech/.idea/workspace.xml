@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2076eaed-ff93-4a5a-9d8c-aa8048631ab5" name="Default Changelist" comment="aaa">
-      <change afterPath="$PROJECT_DIR$/src/com/zmh/stringtype/StringDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zmh/stringtype/StringDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zmh/stringtype/StringDemo3.java" afterDir="false" />
+    <list default="true" id="2076eaed-ff93-4a5a-9d8c-aa8048631ab5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/com/zmh/array/ArraySort.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/zmh/array/ArraySort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/com/zmh/array/ArraySortProvideByJdk.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/zmh/array/ArraySortProvideByJdk.class" afterDir="false" />
@@ -25,26 +22,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zmh/stringtype/StringDemo1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" selection-start-line="16" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zmh/stringtype/StringDemo3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -102,13 +80,6 @@
               <item name="java-core-tech" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zmh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-core-tech" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-core-tech" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zmh" type="462c0819:PsiDirectoryNode" />
-              <item name="stringtype" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -210,7 +181,7 @@
       <workItem from="1566865477437" duration="86000" />
       <workItem from="1566866387603" duration="3093000" />
       <workItem from="1566878932860" duration="6792000" />
-      <workItem from="1566896811213" duration="248000" />
+      <workItem from="1566896811213" duration="324000" />
     </task>
     <task id="LOCAL-00001" summary="aaa">
       <created>1566812136462</created>
@@ -219,18 +190,24 @@
       <option name="project" value="LOCAL" />
       <updated>1566812136462</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hhh">
+      <created>1566897125308</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566897125308</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11511000" />
+    <option name="totallyTimeSpent" value="11587000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7944112" visible="true" weight="0.2647504" />
-      <window_info id="Structure" order="1" sideWeight="0.20558882" side_tool="true" visible="true" weight="0.2647504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79545456" visible="true" weight="0.2647504" />
+      <window_info id="Structure" order="1" sideWeight="0.20454545" side_tool="true" visible="true" weight="0.2647504" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -238,14 +215,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.18003273" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.27986908" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50226927" side_tool="true" visible="true" weight="0.18003273" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50226927" side_tool="true" visible="true" weight="0.27986908" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49848714" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="12" />
@@ -267,7 +244,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aaa" />
-    <option name="LAST_COMMIT_MESSAGE" value="aaa" />
+    <MESSAGE value="hhh" />
+    <option name="LAST_COMMIT_MESSAGE" value="hhh" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -332,17 +310,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zmh/stringtype/StringDemo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zmh/stringtype/StringDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" selection-start-line="16" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zmh/stringtype/StringDemo3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>
