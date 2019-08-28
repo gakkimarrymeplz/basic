@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2076eaed-ff93-4a5a-9d8c-aa8048631ab5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zmh/keywords_this/ThisDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zmh/keywords_this/ThisDemo4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/zmh/array/ArraySort.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/zmh/array/ArraySort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/zmh/array/ArraySortProvideByJdk.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/zmh/array/ArraySortProvideByJdk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/zmh/array/ArrayTranspose1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/zmh/array/ArrayTranspose1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/zmh/array/ArrayTranspose2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/zmh/array/ArrayTranspose2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/zmh/array/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/zmh/array/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/zmh/array/ObjectArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/zmh/array/ObjectArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zmh/keywords_this/ThisDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zmh/keywords_this/ThisDemo3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -19,11 +25,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zmh/keywords_this/ThisDemo3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <state relative-caret-position="304">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zmh/keywords_this/ThisDemo4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+              <folding>
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,6 +73,7 @@
         <option value="$PROJECT_DIR$/src/com/zmh/keywords_this/ThisDemo1.java" />
         <option value="$PROJECT_DIR$/src/com/zmh/keywords_this/ThisDemo2.java" />
         <option value="$PROJECT_DIR$/src/com/zmh/keywords_this/ThisDemo3.java" />
+        <option value="$PROJECT_DIR$/src/com/zmh/keywords_this/ThisDemo4.java" />
       </list>
     </option>
   </component>
@@ -63,10 +84,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -74,7 +95,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,7 +125,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -138,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThisDemo3">
+  <component name="RunManager" selected="Application.ThisDemo4">
     <configuration name="ThisDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zmh.keywords_this.ThisDemo1" />
       <module name="java-core-tech" />
@@ -178,12 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zmh.multi_thread.ThreadDemo1" />
+    <configuration name="ThisDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zmh.keywords_this.ThisDemo4" />
       <module name="java-core-tech" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zmh.multi_thread.*" />
+          <option name="PATTERN" value="com.zmh.keywords_this.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThisDemo4" />
         <item itemvalue="Application.ThisDemo3" />
         <item itemvalue="Application.ThisDemo2" />
         <item itemvalue="Application.ThisDemo1" />
         <item itemvalue="Application.ThreadDemo2" />
-        <item itemvalue="Application.ThreadDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +257,8 @@
       <workItem from="1566898912882" duration="1735000" />
       <workItem from="1566953466449" duration="4995000" />
       <workItem from="1566959016095" duration="132000" />
-      <workItem from="1566959177482" duration="783000" />
+      <workItem from="1566959177482" duration="2522000" />
+      <workItem from="1566965198304" duration="1486000" />
     </task>
     <task id="LOCAL-00001" summary="aaa">
       <created>1566812136462</created>
@@ -287,18 +309,25 @@
       <option name="project" value="LOCAL" />
       <updated>1566959435196</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="this关键字表示当前对象">
+      <created>1566960147166</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1566960147166</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19453000" />
+    <option name="totallyTimeSpent" value="22678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7790507" visible="true" weight="0.28517398" />
-      <window_info id="Structure" order="1" sideWeight="0.22094926" side_tool="true" visible="true" weight="0.28517398" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7774141" visible="true" weight="0.28517398" />
+      <window_info id="Structure" order="1" sideWeight="0.22258593" side_tool="true" visible="true" weight="0.28517398" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -306,7 +335,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" weight="0.30605564" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" weight="0.15384616" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -340,7 +369,8 @@
     <MESSAGE value="线程基础" />
     <MESSAGE value="this关键字的学习" />
     <MESSAGE value="this关键字调用方法的学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="this关键字调用方法的学习" />
+    <MESSAGE value="this关键字表示当前对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="this关键字表示当前对象" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -357,6 +387,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/zmh/keywords_this/ThisDemo4.java</url>
+          <line>29</line>
+          <properties class="com.zmh.keywords_this.ThisDemo4" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -513,8 +551,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zmh/keywords_this/ThisDemo3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="304">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zmh/keywords_this/ThisDemo4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
