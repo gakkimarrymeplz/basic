@@ -3,33 +3,33 @@ package com.zmh.keywords_this;
 /**
  * @author zmh
  * @date 2019/8/28 11:05
- * thisè¡¨ç¤ºå½“å‰å¯¹è±¡çš„æ€è€ƒé¢˜
+ * this±íÊ¾µ±Ç°¶ÔÏóµÄË¼¿¼Ìâ
  */
 class A{
     private B b;
-    public A() {//2.æ‰§è¡ŒAç±»çš„æ„é€ 
-        //3.ä¸ºBç±»å¯¹è±¡Bå®ä¾‹åŒ–
-        this.b=new B(this);//4.thiså°±æ˜¯temp
-        this.b.get();//7.è°ƒç”¨Bç±»çš„getæ–¹æ³•
+    public A() {//2.Ö´ĞĞAÀàµÄ¹¹Ôì
+        //3.ÎªBÀà¶ÔÏóBÊµÀı»¯
+        this.b=new B(this);//4.this¾ÍÊÇtemp
+        this.b.get();//7.µ÷ÓÃBÀàµÄget·½·¨
     }
-    public void print() {//10.è°ƒç”¨printè¾“å‡º
-        System.out.println("Hello World !");
+    public void print() {//10.µ÷ÓÃprintÊä³ö
+        System.out.println("Hello World !°¡");
 
     }
 }
 class B{
     private A a;
-    public B(A a) {//5.å‚æ•°a=temp
-        this.a=a;//6.ä¿å­˜Aå¯¹è±¡(ä¿å­˜temp)
+    public B(A a) {//5.²ÎÊıa=temp
+        this.a=a;//6.±£´æA¶ÔÏó(±£´ætemp)
     }
-    public void get() {//8.è°ƒç”¨æ­¤æ–¹æ³•
+    public void get() {//8.µ÷ÓÃ´Ë·½·¨
         this.a.print();//9.this.a=temp
     }
 }
 public class ThisDemo4 {
     public static void main(String[] args) {
-        //1.å®ä¾‹åŒ–Aç±»å¯¹è±¡ï¼Œè¦è°ƒç”¨Aç±»çš„æ— å‚æ„é€ (ç”±äºä»£ç 
-        // ä»å³å¾€å·¦æ‰§è¡Œï¼Œæ‰§è¡Œnew A()çš„æ—¶å€™tempè¿˜æ²¡æœ‰èµ‹å€¼ï¼Œä½†ä¸ºäº†è¡¨è¿°æ¸…æ¥šä¸€ç‚¹å°±å‡è®¾tempå·²ç»æ˜¯Aç±»å¯¹è±¡åäº†)
+        //1.ÊµÀı»¯AÀà¶ÔÏó£¬Òªµ÷ÓÃAÀàµÄÎŞ²Î¹¹Ôì(ÓÉÓÚ´úÂë
+        // ´ÓÓÒÍù×óÖ´ĞĞ£¬Ö´ĞĞnew A()µÄÊ±ºòtemp»¹Ã»ÓĞ¸³Öµ£¬µ«ÎªÁË±íÊöÇå³şÒ»µã¾Í¼ÙÉètempÒÑ¾­ÊÇAÀà¶ÔÏóÃûÁË)
         A temp=new A();
     }
 }

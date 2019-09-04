@@ -1,7 +1,7 @@
 package com.zmh.reference_pass;
 
 /**
- * å¼•ç”¨ä¼ é€’çš„åº”ç”¨
+ * ÒıÓÃ´«µİµÄÓ¦ÓÃ
  * @author zmh
  * @date 2019/8/28 16:52
  */
@@ -9,9 +9,9 @@ class Member{
     private int mid;
     private String name;
     private Member child;
-    //caræœ‰å®ä¾‹åŒ–å¯¹è±¡è¡¨ç¤ºæœ‰è½¦
-    //carä¸ºnullè¡¨ç¤ºæ²¡æœ‰è½¦
-    private Car car;//è¡¨ç¤ºå±äºäººçš„è½¦
+    //carÓĞÊµÀı»¯¶ÔÏó±íÊ¾ÓĞ³µ
+    //carÎªnull±íÊ¾Ã»ÓĞ³µ
+    private Car car;//±íÊ¾ÊôÓÚÈËµÄ³µ
 
     public Member(int mid, String name) {
         this.mid = mid;
@@ -51,7 +51,7 @@ class Member{
     }
 
     public String getInfo() {
-        return "äººå‘˜ç¼–å·"+this.name+",äººå‘˜å§“å:"+this.name;
+        return "ÈËÔ±±àºÅ"+this.name+",ÈËÔ±ĞÕÃû:"+this.name;
 
     }}
 class Car{
@@ -79,23 +79,24 @@ class Car{
     }
 
     public String getInfo() {
-        return "è½¦å‹"+this.pname;
+        return "³µĞÍ:"+this.pname;
     }
 }
 public class ReferencedApplication {
     public static void main(String[] args) {
-        Member member = new Member(1,"é»„æ™“æ˜");
-        Member child = new Member(2,"é»„å¤§å");
-        Car car1 = new Car("åŠ³æ–¯è±æ–¯å¹»å½±");
-        Car car2 = new Car("åŠ³å¥‡ç‘qq");
+        Member member = new Member(1,"»ÆÏşÃ÷");
+        Member child = new Member(2,"»Æ´óÃû");
+        Car car1 = new Car("ÀÍË¹À³Ë¹»ÃÓ°");
+        Car car2 = new Car("ÆæÈğqq");
         member.setChild(child);
         member.setCar(car1);
         car1.setMember(member);
         car2.setMember(child);
         child.setCar(car2);
-        //é€šè¿‡äººæ‰¾åˆ°ä»–å„¿å­çš„è½¦çš„ä¿¡æ¯
+        //Í¨¹ıÈËÕÒµ½Ëû¶ù×ÓµÄ³µµÄĞÅÏ¢
 
-        System.out.println(member.getChild().getCar().getInfo());
+        System.out.println(member.getChild().getCar().getInfo());//´úÂëÁ´
+
 
 
 
