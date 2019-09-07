@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2076eaed-ff93-4a5a-9d8c-aa8048631ab5" name="Default Changelist" comment="增加了数据表和简单java类的映射代码（单向一对多和双向一对多）,雇员-部门、城市-省份、栏目-子栏目-商品之间的引用关系。">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/zmh/data_mapping_entity/AccessControlDemo.java" />
+    <list default="true" id="2076eaed-ff93-4a5a-9d8c-aa8048631ab5" name="Default Changelist" comment="增加了管理员-角色-权限组-权限对象之间引用关系的代码样例。">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/zmh/object_compare/ObjectCompare.java" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -20,45 +20,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AccessControlDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zmh/data_mapping_entity/AccessControlDemo.java">
+      <file leaf-file-name="ObjectCompare.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zmh/object_compare/ObjectCompare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="189" column="25" lean-forward="true" selection-start-line="189" selection-start-column="25" selection-end-line="189" selection-end-column="25" />
-              <folding>
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
-                <element signature="e#851#852#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
-                <element signature="e#1052#1053#0" expanded="true" />
-                <element signature="e#1086#1087#0" expanded="true" />
-                <element signature="e#1115#1116#0" expanded="true" />
-                <element signature="e#1149#1150#0" expanded="true" />
-                <element signature="e#1178#1179#0" expanded="true" />
-                <element signature="e#1223#1224#0" expanded="true" />
-                <element signature="e#1259#1260#0" expanded="true" />
-                <element signature="e#1393#1394#0" expanded="true" />
-                <element signature="e#1452#1453#0" expanded="true" />
-                <element signature="e#1623#1624#0" expanded="true" />
-                <element signature="e#1656#1657#0" expanded="true" />
-                <element signature="e#1713#1714#0" expanded="true" />
-                <element signature="e#1757#1758#0" expanded="true" />
-                <element signature="e#1789#1790#0" expanded="true" />
-                <element signature="e#1817#1818#0" expanded="true" />
-                <element signature="e#1859#1860#0" expanded="true" />
-                <element signature="e#1893#1894#0" expanded="true" />
-                <element signature="e#2027#2028#0" expanded="true" />
-                <element signature="e#2088#2089#0" expanded="true" />
-                <element signature="e#2239#2240#0" expanded="true" />
-                <element signature="e#2267#2268#0" expanded="true" />
-                <element signature="e#2308#2309#0" expanded="true" />
-                <element signature="e#2342#2343#0" expanded="true" />
-                <element signature="e#2517#2518#0" expanded="true" />
-                <element signature="e#2594#2595#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,6 +69,8 @@
         <option value="$PROJECT_DIR$/src/com/zmh/data_mapping_entity/Province_City.java" />
         <option value="$PROJECT_DIR$/src/com/zmh/data_mapping_entity/OneToManyModel_ISP.java" />
         <option value="$PROJECT_DIR$/src/com/zmh/data_mapping_entity/AccessControlDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/zmh/ObjectCompare.java" />
+        <option value="$PROJECT_DIR$/src/com/zmh/object_compare/ObjectCompare.java" />
       </list>
     </option>
   </component>
@@ -167,23 +136,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zmh" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java-core-tech" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-core-tech" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zmh" type="462c0819:PsiDirectoryNode" />
-              <item name="data_mapping_entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-core-tech" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-core-tech" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zmh" type="462c0819:PsiDirectoryNode" />
-              <item name="data_mapping_entity" type="462c0819:PsiDirectoryNode" />
-              <item name="AccessControlDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -228,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AccessControlDemo">
+  <component name="RunManager" selected="Application.ObjectCompare">
     <configuration name="AccessControlDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -256,6 +208,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.zmh.data_mapping_entity.Emp_Dept" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="java-core-tech" />
+      <envs />
+    </configuration>
+    <configuration name="ObjectCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zmh.object_compare.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.zmh.object_compare.ObjectCompare" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -305,39 +276,20 @@
       <module name="java-core-tech" />
       <envs />
     </configuration>
-    <configuration name="ReferencedApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.zmh.reference_pass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.zmh.reference_pass.ReferencedApplication" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java-core-tech" />
-      <envs />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ReferencedApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Emp_Dept" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Province_City" />
-      <item index="3" class="java.lang.String" itemvalue="Application.OneToManyModel_ISP" />
-      <item index="4" class="java.lang.String" itemvalue="Application.AccessControlDemo" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Emp_Dept" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Province_City" />
+      <item index="2" class="java.lang.String" itemvalue="Application.OneToManyModel_ISP" />
+      <item index="3" class="java.lang.String" itemvalue="Application.AccessControlDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ObjectCompare" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.AccessControlDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.OneToManyModel_ISP" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Province_City" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Emp_Dept" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ReferencedApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ObjectCompare" />
+        <item index="1" class="java.lang.String" itemvalue="Application.AccessControlDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.OneToManyModel_ISP" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Province_City" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Emp_Dept" />
       </list>
     </recent_temporary>
   </component>
@@ -371,7 +323,7 @@
       <workItem from="1567174419679" duration="615000" />
       <workItem from="1567259040168" duration="12000" />
       <workItem from="1567604156461" duration="6942000" />
-      <workItem from="1567828201143" duration="7650000" />
+      <workItem from="1567828201143" duration="8832000" />
     </task>
     <task id="LOCAL-00001" summary="aaa">
       <created>1566812136462</created>
@@ -443,15 +395,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567612496880</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="增加了管理员-角色-权限组-权限对象之间引用关系的代码样例。">
+      <created>1567872462701</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1567872462701</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45226000" />
+    <option name="totallyTimeSpent" value="46408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -462,12 +420,12 @@
       <window_info id="Event Log" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.039845757" sideWeight="0.5030257" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07069409" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.49848714" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.111409396" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2840617" sideWeight="0.7430684" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2840617" sideWeight="0.7430684" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28470436" sideWeight="0.2569316" order="1" side_tool="true" content_ui="tabs" />
@@ -506,7 +464,8 @@
     <MESSAGE value="this关键字表示当前对象的思考题" />
     <MESSAGE value="增加了数据表和简单java类的映射代码（单向一对多和双向一对多）,雇员-部门、城市-省份、栏目-子栏目-商品之间的引用关系" />
     <MESSAGE value="增加了数据表和简单java类的映射代码（单向一对多和双向一对多）,雇员-部门、城市-省份、栏目-子栏目-商品之间的引用关系。" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加了数据表和简单java类的映射代码（单向一对多和双向一对多）,雇员-部门、城市-省份、栏目-子栏目-商品之间的引用关系。" />
+    <MESSAGE value="增加了管理员-角色-权限组-权限对象之间引用关系的代码样例。" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了管理员-角色-权限组-权限对象之间引用关系的代码样例。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -832,6 +791,14 @@
             <element signature="e#2517#2518#0" expanded="true" />
             <element signature="e#2594#2595#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zmh/object_compare/ObjectCompare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
