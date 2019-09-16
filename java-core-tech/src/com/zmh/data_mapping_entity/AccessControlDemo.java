@@ -37,7 +37,7 @@ class Admin{
     }
 
     public String getInfo(){
-        return "管理员编号:"+this.aid+",管理员密码:"+this.password+",上次登录时间:"+this.lastLoginTime;
+        return "????????:"+this.aid+",?????????:"+this.password+",??ε?????:"+this.lastLoginTime;
     }
 }
 class Role{
@@ -67,7 +67,7 @@ class Role{
     }
 
     public String getInfo(){
-        return "角色编号:"+this.rid+",角色名称:"+this.title;
+        return "??????:"+this.rid+",???????:"+this.title;
     }
 }
 
@@ -98,7 +98,7 @@ class Group{
         this.title = title;
     }
     public String getInfo(){
-        return "权限组编号:"+this.gid+",权限组名称:"+this.title;
+        return "???????:"+this.gid+",?????????:"+this.title;
     }
 }
 
@@ -123,45 +123,45 @@ class Privilege{
     }
 
     public String getInfo(){
-        return "权限编号:"+this.pid+",权限名称:"+this.title+",权限路径:"+this.url;
+        return "?????:"+this.pid+",???????:"+this.title+",???·??:"+this.url;
     }
 }
 public class AccessControlDemo {
 
     public static void main(String[] args) {
-        //第一步:设置完整关系
-        //1.准备出若干对象
+        //?????:???????????
+        //1.????????????
         Admin a1 = new Admin("admin","hello",new Date());
         Admin a2 = new Admin("tom","hello",new Date());
         Admin a3 = new Admin("jiabao","hello",new Date());
-        Role r1 = new Role(1,"系统管理员");
-        Role r2 = new Role(2,"信息管理员");
-        Group g1 = new Group(10,"信息管理");
-        Group g2 = new Group(11,"用户管理");
-        Group g3 = new Group(12,"数据管理");
-        Group g4 = new Group(13,"接口管理");
-        Group g5 = new Group(14,"备份管理");
-        Privilege p01 = new Privilege(1001,"新闻发布","-");
-        Privilege p02 = new Privilege(1002,"新闻列表","-");
-        Privilege p03 = new Privilege(1003,"新闻审核","-");
-        Privilege p04 = new Privilege(1004,"增加用户","-");
-        Privilege p05 = new Privilege(1005,"用户列表","-");
-        Privilege p06 = new Privilege(1006,"登录日志","-");
-        Privilege p07 = new Privilege(1007,"雇员数据","-");
-        Privilege p08 = new Privilege(1008,"部门数据","-");
-        Privilege p09 = new Privilege(1009,"公司数据","-");
-        Privilege p10 = new Privilege(1010,"服务传输","-");
-        Privilege p11 = new Privilege(1011,"短信平台","-");
-        Privilege p12 = new Privilege(1012,"全部备份","-");
-        Privilege p13 = new Privilege(1013,"局部备份","-");
-        //2.要设置这些对象间的基本关系
-        //设置管理员与角色
+        Role r1 = new Role(1,"???????");
+        Role r2 = new Role(2,"????????");
+        Group g1 = new Group(10,"???????");
+        Group g2 = new Group(11,"???????");
+        Group g3 = new Group(12,"???????");
+        Group g4 = new Group(13,"??????");
+        Group g5 = new Group(14,"???????");
+        Privilege p01 = new Privilege(1001,"???????","-");
+        Privilege p02 = new Privilege(1002,"?????б?","-");
+        Privilege p03 = new Privilege(1003,"???????","-");
+        Privilege p04 = new Privilege(1004,"???????","-");
+        Privilege p05 = new Privilege(1005,"????б?","-");
+        Privilege p06 = new Privilege(1006,"??????","-");
+        Privilege p07 = new Privilege(1007,"???????","-");
+        Privilege p08 = new Privilege(1008,"????????","-");
+        Privilege p09 = new Privilege(1009,"???????","-");
+        Privilege p10 = new Privilege(1010,"??????","-");
+        Privilege p11 = new Privilege(1011,"??????","-");
+        Privilege p12 = new Privilege(1012,"???????","-");
+        Privilege p13 = new Privilege(1013,"???????","-");
+        //2.???????Щ????????????
+        //???ù????????
         a1.setRole(r1);
         a2.setRole(r2);
         a3.setRole(r2);
         r1.setAdmins(new Admin[]{a1});
         r2.setAdmins(new Admin[]{a2,a3});
-        //设置角色和权限组之间关系
+        //??????????????????
         r1.setGroups(new Group[]{g1,g2,g3,g4,g5});
         r2.setGroups(new Group[]{g1,g2});
         g1.setRoles(new Role[]{r1,r2});
@@ -169,7 +169,7 @@ public class AccessControlDemo {
         g3.setRoles(new Role[]{r1});
         g4.setRoles(new Role[]{r1});
         g5.setRoles(new Role[]{r1});
-        //设置权限组和权限之间的关系
+        //???????????????????
         g1.setPrivileges(new Privilege[]{p01,p02,p03});
         g2.setPrivileges(new Privilege[]{p04,p05,p06});
         g3.setPrivileges(new Privilege[]{p07,p09,p09});
@@ -188,7 +188,7 @@ public class AccessControlDemo {
         p11.setGroup(g4);
         p12.setGroup(g5);
         p13.setGroup(g5);
-        //第二步:取出数据
+        //?????:???????
         System.out.println(a1.getInfo());
         System.out.println("\t|-"+a1.getRole().getInfo());
         for (int i = 0; i < a1.getRole().getGroups().length; i++) {
