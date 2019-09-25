@@ -1,4 +1,4 @@
-package proxy;
+package com.zmh.proxy;
 
 /**
  * @author zmh
@@ -45,5 +45,6 @@ public class ProxyDesignPattern {
     public static void main(String[] args) {
         Subject subject = new ProxySubject(new RealProxy());
         subject.make();
+
     }
 }
